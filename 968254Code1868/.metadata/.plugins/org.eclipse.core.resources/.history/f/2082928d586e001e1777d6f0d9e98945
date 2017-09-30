@@ -1,0 +1,76 @@
+#include "WPILib.h"
+#include "Library2009.h"
+
+class Workshop2009 : public IterativeRobot
+{
+private: 
+	
+
+	DriverStation* ds;						// driver station object
+	Victor* leftDrivemotor;
+	Victor* rightDrivemotor;
+	
+public:
+	Workshop2009(void) {
+		leftDrivemotor =  new Victor(4);
+		rightDrivemotor = new Victor(5);
+		ds = DriverStation::GetInstance(); 
+		
+	}
+	
+	void RobotInit(void) {
+		
+	}
+	
+	void DisabledInit(void) {
+		
+	}
+
+	void AutonomousInit(void) {
+		
+	}
+
+	void TeleopInit(void) {
+		
+	}
+
+	
+	
+	void DisabledPeriodic(void)  {
+	}
+
+	void AutonomousPeriodic(void) {
+		
+	}
+
+	
+	void TeleopPeriodic(void) {
+		
+	} 
+
+
+
+
+	void DisabledContinuous(void) {
+	}
+
+	void AutonomousContinuous(void)	{
+	}
+
+	void TeleopContinuous(void) {
+	float joyY = ds->GetAnalogIn(1);
+	float joyX = ds->GetAnalogIn(2);
+	
+	joyY = Library2009::analogJoystickInScale(joyY);
+	joyX = Library2009::analogJoystickInScale(joyX);
+	
+	
+	}
+	
+
+	
+
+	
+}
+
+START_ROBOT_CLASS(Workshop2009);

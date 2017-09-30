@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launchConfiguration type="com.windriver.ide.launch.embeddedlinux.tmRunProcess">
+<stringAttribute key="com.windriver.ide.launch.processArgs" value=""/>
+<stringAttribute key="com.windriver.ide.launch.processBreakAtSymbol" value="main"/>
+<booleanAttribute key="com.windriver.ide.launch.processBreakOnEntry" value="true"/>
+<stringAttribute key="com.windriver.ide.launch.processEnv" value="2009/software2009/968254Code1868/PPC603gnu/BuiltinDefaultCode/Debu= CWD=C:/Documents Cookie/Desktop/SpaceCookie= LD_BIND_NOW=1 Settings/Spac= an="/>
+<stringAttribute key="com.windriver.ide.launch.processExecPath" value="C:/Documents and Settings/Space Cookie/Desktop/SpaceCookies 2009/software2009/968254Code1868/PPC603gnu/BuiltinDefaultCode/Debug/BuiltinDefaultCode.out"/>
+<mapAttribute key="com.windriver.ide.launch.processOptions"/>
+<stringAttribute key="com.windriver.ide.launch.processWorkingDir" value="C:/Documents"/>
+<listAttribute key="com.windriver.ide.launch.projectsForBuild">
+<listEntry value="968254Code1868"/>
+</listAttribute>
+</launchConfiguration>
